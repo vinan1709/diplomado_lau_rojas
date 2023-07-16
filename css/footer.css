@@ -1,0 +1,77 @@
+footer {
+    box-shadow: 4px 8px 44px 2px rgba(0,0,0,0.21);
+    background-image: url("../img/footer_bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+footer .content_footer {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 60px 0;
+}
+footer .social {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+footer .social .list{
+    display: flex;
+}
+footer .social .item {
+    width: 50px;
+    height: 50px;
+}
+footer .social .item:hover {
+    background-color: darkslategray;
+    border-radius: 5px;
+    transform: rotate(10deg);
+}
+footer .social .item .img{
+    width: 100%;
+    height: auto;
+}
+footer .social .title, footer .contact .title{
+    flex-grow: 4;
+}
+footer .contact,
+footer .ubication {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+footer .contact a {
+    text-decoration: none;
+    color: #000000;
+}
+footer .contact a:hover {
+    border-bottom: 1px solid #000000;
+}
+footer .box_title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+footer .ubication {
+
+}
+footer .box_title img{
+    width: 50px;
+    height: 50px;
+}
+footer .copy {
+    text-align: center;
+    margin: 40px 0;
+}
